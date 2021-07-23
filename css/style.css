@@ -14,5 +14,15 @@ a {
 
 ul,
 ol {
-    list-style: none;
+    list-style: nones;
+}
+
+body {
+    background-color: #161616;
+}
+
+/*=====nav part=====*/
+.br-btm {
+    border-bottom: 1px solid;
+    border-image: url(../img/nav-line.png) 20 space;
 }
