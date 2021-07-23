@@ -3,7 +3,7 @@
 
 /*=====CUSTOM CSS=====*/
 :root {
-    --primary-css: 'Montserrat',
+    --primary-font: 'Montserrat',
         sans-serif;
 }
 
@@ -14,15 +14,82 @@ a {
 
 ul,
 ol {
-    list-style: nones;
+    list-style: none;
 }
 
 body {
     background-color: #161616;
+    overflow-x: hidden;
 }
 
 /*=====nav part=====*/
 .br-btm {
     border-bottom: 1px solid;
     border-image: url(../img/nav-line.png) 20 space;
+}
+
+/*=====BANNER PART=====*/
+.banner_heading {
+    margin-top: 180px;
+}
+
+.banner_heading,
+.banner_heading a {
+    color: #ffffff;
+}
+
+.banner_heading h1 {
+    background-image: linear-gradient(360deg, #7F7F7F, #ffffff, #FFFFFF);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 60px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.banner_heading p {
+    font-family: var(--primary-font);
+    font-style: 30px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.banner_heading a {
+    border: 1px solid;
+    border-image: url(../img/bg.png) 65 round repeat;
+    padding: 9px 50px;
+    font-size: 40px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-style: normal;
+    display: inline-block;
+    background-image: url(../img/bg.png);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.banner_part {
+    background: url(../img/стрелка.png) 98% 46% no-repeat;
+
+}
+
+.banner_icon ul {
+    border-bottom: 2px solid;
+    display: flex;
+    justify-content: space-around;
+    border-image: url(../img/bg.png) 27;
+}
+
+.banner_icon ul li a {
+    color: #FFFFFF;
+}
+
+.banner_icon .fab {
+    font-size: 25px;
 }
