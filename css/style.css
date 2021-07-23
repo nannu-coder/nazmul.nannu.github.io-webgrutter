@@ -1,0 +1,18 @@
+/*=====GOOGLE FONTS=====*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/*=====CUSTOM CSS=====*/
+:root {
+    --primary-css: 'Montserrat',
+        sans-serif;
+}
+
+/*===== COMMON CSS=====*/
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
