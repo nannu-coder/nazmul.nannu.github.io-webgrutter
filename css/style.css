@@ -226,3 +226,184 @@ body {
     margin: 0;
     padding: 15px 0;
 }
+
+/*=====MEDIA QUERIES=====*/
+@media screen and (max-width:576px) {
+
+    /*=====BANNER PART=====*/
+    .banner_part {
+        text-align: center;
+        background-image: none;
+    }
+
+    .banner_img {
+        display: none;
+    }
+
+    .wdt {
+        width: 250px;
+        text-align: right;
+        margin-top: 30px;
+    }
+
+    /*=====SERVICE PART=====*/
+    .heading-service h2 {
+        margin-bottom: 40px;
+    }
+
+    /*=====PORTFOLIO PART=====*/
+    .porrtfolio_heading {
+        margin-top: 50px;
+    }
+
+    .portfolio_imgs {
+        background: url(../img/arrowdown.png) no-repeat center 100%;
+    }
+
+    /*=====CONTACT PART=====*/
+    .contact_heading h2 {
+        margin-bottom: 30px;
+    }
+
+    .contact_btn {
+        text-align: center;
+    }
+
+    .email_n_icon {
+        text-align: center;
+    }
+
+    /*=====FOOTER PART=====*/
+    .footer_content {
+        display: block !important;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .footer_content p {
+        padding: 0;
+    }
+
+}
+
+@media screen and (min-width:577px) and (max-width:767px) {
+
+    /*=====BANNER PART=====*/
+    .banner_part {
+        text-align: center;
+        background-image: none;
+    }
+
+    .banner_img {
+        display: none;
+    }
+
+    .wdt {
+        width: 250px;
+        text-align: right;
+        margin-top: 30px;
+    }
+
+    /*=====SERVICE PART=====*/
+    .heading-service h2 {
+        margin-bottom: 40px;
+    }
+
+    /*=====PORTFOLIO PART=====*/
+    .porrtfolio_heading {
+        margin-top: 50px;
+    }
+
+    .portfolio_imgs {
+        background: url(../img/arrowdown.png) no-repeat center 100%;
+    }
+
+    /*=====CONTACT PART=====*/
+    .contact_heading h2 {
+        margin-bottom: 30px;
+    }
+
+    .contact_btn {
+        text-align: center;
+    }
+
+    .email_n_icon {
+        text-align: center;
+    }
+
+    /*=====FOOTER PART=====*/
+    .footer_content {
+        display: block !important;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .footer_content p {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    /*=====BANNER PART=====*/
+    .banner_part {
+        text-align: center;
+        background-image: none;
+    }
+
+    .banner_img {
+        display: none;
+    }
+
+    .wdt {
+        width: 250px;
+        text-align: right;
+        margin-top: 30px;
+    }
+
+    /*=====SERVICE PART=====*/
+    .heading-service h2 {
+        margin-bottom: 40px;
+    }
+
+    /*=====PORTFOLIO PART=====*/
+    .porrtfolio_heading {
+        margin-top: 50px;
+    }
+
+    .portfolio_imgs {
+        background: url(../img/arrowdown.png) no-repeat center 100%;
+    }
+
+    /*=====CONTACT PART=====*/
+    .contact_heading h2 {
+        margin-bottom: 30px;
+    }
+
+    .contact_btn {
+        text-align: center;
+    }
+
+    .email_n_icon {
+        text-align: center;
+    }
+
+    /*=====FOOTER PART=====*/
+    .footer_content {
+        display: block !important;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .footer_content p {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+    /*=====BANNER PART=====*/
+    .banner_part {
+        background-image: none;
+    }
+}
